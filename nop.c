@@ -6,7 +6,6 @@
 */
 void monty_nop(stack_t **stack, unsigned int counter)
 {
-	charity
 	(void)stack;
 	(void)counter;
 	/* No operation */
