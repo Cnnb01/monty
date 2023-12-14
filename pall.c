@@ -5,7 +5,7 @@
 * @counter: not used
 * Return: no return
 */
-charity
+
 void monty_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *current;
