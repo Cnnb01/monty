@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
 * monty_nop - Does nothing.
 * @stack: A pointer to the top of the stack.
@@ -7,6 +6,7 @@
 */
 void monty_nop(stack_t **stack, unsigned int counter)
 {
+	charity
 	(void)stack;
 	(void)counter;
 	/* No operation */
