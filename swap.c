@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * swap - Swaps the top two elements of the stack.
+ * monty_swap - Swaps the top two elements of the stack.
  * @head: Pointer to the head of the stack.
  * @counter: Line number of the opcode in the Monty script.
  */
-void swap(stack_t **head, unsigned int counter)
+void monty_swap(stack_t **head, unsigned int counter)
 {
 	stack_t *temp;
 	int len = 0, temp_value;
