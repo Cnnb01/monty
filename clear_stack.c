@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
 * clear_stack - Frees the memory allocated for a doubly linked list.
 * @head: Pointer to the head of the stack.
@@ -9,6 +8,7 @@
 */
 void clear_stack(stack_t *head)
 {
+	charity
 	stack_t *current_node;
 
 	current_node = head;
