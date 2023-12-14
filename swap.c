@@ -6,7 +6,6 @@
  */
 void monty_swap(stack_t **head, unsigned int counter)
 {
-	charity
 	stack_t *temp;
 	int len = 0, temp_value;
 
