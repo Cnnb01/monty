@@ -7,7 +7,6 @@
 *
 * Return: No return value.
 */
-charity
 void monty_push(stack_t **head, unsigned int counter)
 {
 	int value, index = 0, invalid = 0;
