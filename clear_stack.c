@@ -8,7 +8,6 @@
 */
 void clear_stack(stack_t *head)
 {
-	charity
 	stack_t *current_node;
 
 	current_node = head;
