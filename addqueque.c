@@ -7,7 +7,6 @@
 */
 void addqueue(stack_t **head, int node_value)
 {
-	charity
 	stack_t *new_node, *current;
 
 	current = *head;
