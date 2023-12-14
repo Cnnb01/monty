@@ -66,8 +66,10 @@ void monty_nop(stack_t **stack, unsigned int counter);
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
 void monty_push(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int n);
-void f_queue(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
-
+void monty_pall(stack_t **head, unsigned int counter);
+void monty_sub(stack_t **head, unsigned int counter);
+void monty_div(stack_t **head, unsigned int counter);
+void monty_pint(stack_t **head, unsigned int counter);
 
 #endif

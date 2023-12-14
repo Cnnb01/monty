@@ -11,13 +11,13 @@
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
 	instruction_t opst[] = {
-		{"push", monty_push}, /*{"pall", monty_pall}, {"pint", monty_pint},*/
+		{"push", monty_push}, {"pall", monty_pall}, {"pint", monty_pint},
 		{"pop", monty_pop},
 		{"swap", monty_swap},
 		{"add", monty_add},
 		{"nop", monty_nop},
-		/*{"sub", monty_sub},*/
-		/*{"div", monty_div},*/
+		{"sub", monty_sub},
+		{"div", monty_div},
 		/*{"mul", monty_mul},*/
 		/*{"mod", monty_mod},*/
 		/*{"pchar", monty_pchar},*/
