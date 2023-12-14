@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
-* pop - Removes the top element of the stack.
+* monty_pop - Removes the top element of the stack.
 * @head: Pointer to the head of the stack.
 * @counter: Line number of the opcode in the Monty script.
 */
-void pop(stack_t **head, unsigned int counter)
+void monty_pop(stack_t **head, unsigned int counter)
 {
 	stack_t *temp;
 

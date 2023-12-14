@@ -59,7 +59,15 @@ typedef struct instruction_s
 
 } instruction_t;
 void clear_stack(stack_t *head);
-void pop(stack_t **head, unsigned int counter);
-void swap(stack_t **head, unsigned int counter);
-void add(stack_t **head, unsigned int counter);
+void monty_pop(stack_t **head, unsigned int counter);
+void monty_swap(stack_t **head, unsigned int counter);
+void monty_add(stack_t **head, unsigned int counter);
+void monty_nop(stack_t **stack, unsigned int counter);
+int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
+void monty_push(stack_t **head, unsigned int counter);
+void addqueue(stack_t **head, int n);
+void f_queue(stack_t **head, unsigned int counter);
+void addnode(stack_t **head, int n);
+
+
 #endif

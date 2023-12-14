@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
-* add - Adds the top two elements of the stack.
+* monty_add - Adds the top two elements of the stack.
 * @head: Pointer to the head of the stack.
 * @counter: Line number of the opcode in the Monty script.
 */
-void add(stack_t **head, unsigned int counter)
+void monty_add(stack_t **head, unsigned int counter)
 {
 	stack_t *temp;
 	int len = 0;
