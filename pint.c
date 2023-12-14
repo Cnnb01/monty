@@ -5,6 +5,7 @@
  * @counter: Line number in the Monty bytecode file
  * Return: No return value
  */
+charity
 void monty_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
