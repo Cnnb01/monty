@@ -11,3 +11,4 @@ Queue
 The queue follows the FIFO principle. It maintains the order in which elements are added, ensuring that the first item added is processed or removed first.
 How to Contribute
 We welcome contributions and feedback from the community. If you'd like to contribute, please follow our Contribution Guidelines.
+AUTHORS: JAMES AND CHARITY.
