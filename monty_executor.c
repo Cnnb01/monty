@@ -24,8 +24,8 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		{"pstr", monty_pstr},
 		{"rotl", monty_rotl},
 		{"rotr", monty_rotr},
-		/*{"queue", monty_queue},*/
-		/*{"stack", monty_stack},*/
+		{"queue", monty_queue},
+		{"stack", monty_stack},
 		{NULL, NULL}
 	};
 	unsigned int i = 0;
