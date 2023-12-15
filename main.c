@@ -2,6 +2,7 @@
 #include "monty.h"
 
 config_t config = {NULL, NULL, NULL, 0};
+
 /**
  * main - montyInterpreter, Interpret Monty code from a file
  * @argc: Number of command-line arguments
@@ -37,6 +38,7 @@ int main(int argc, char *argv[])
 		counter++;
 		if (read_line > 0)
 		{
+			/*process_line(content);*/
 			execute(content, &stack, counter, file);
 		}
 		free(content);
