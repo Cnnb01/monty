@@ -75,5 +75,6 @@ void monty_mod(stack_t **head, unsigned int counter);
 void process_line(char *line);
 void monty_pchar(stack_t **stack, unsigned int line_number);
 char *trim_whitespace(char *str);
+void monty_pstr(stack_t **stack, unsigned int line_number);
 
 #endif
