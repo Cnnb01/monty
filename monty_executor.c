@@ -22,7 +22,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		{"mod", monty_mod},
 		{"pchar", monty_pchar},
 		{"pstr", monty_pstr},
-		/*{"rotl", monty_rotl},*/
+		{"rotl", monty_rotl},
 		/*{"rotr", monty_rotr},*/
 		/*{"queue", monty_queue},*/
 		/*{"stack", monty_stack},*/
