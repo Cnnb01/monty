@@ -19,7 +19,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		{"sub", monty_sub},
 		{"div", monty_div},
 		{"mul", monty_mul},
-		/*{"mod", monty_mod},*/
+		{"mod", monty_mod},
 		/*{"pchar", monty_pchar},*/
 		/*{"pstr", monty_pstr},*/
 		/*{"rotl", monty_rotl},*/
